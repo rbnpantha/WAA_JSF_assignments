@@ -47,8 +47,40 @@ public class TableData implements Serializable {
 		tableDataService.deleteRow(nameToDelete);;
 	}
 	
-	public void addName(Name name){
+	public String nameAction(){
 		tableDataService.addName(name);
+		name = new Name();
+		return "index" + "?faces-redirect=true";
+	}
+	
+	Name name = new Name();
+	
+	public Name getName(){
+		return name;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 	/*public String deleteRow(Name nameToDelete) {

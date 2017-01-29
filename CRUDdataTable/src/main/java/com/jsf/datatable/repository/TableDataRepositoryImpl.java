@@ -3,7 +3,6 @@ package com.jsf.datatable.repository;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
-
 import com.jsf.datatable.beans.Name;
 
 public class TableDataRepositoryImpl implements TableDataRepository, Serializable {

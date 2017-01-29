@@ -28,7 +28,7 @@ public class TableDataServiceImpl implements TableDataService, Serializable {
 
 	@Override
 	public void addName(Name name) {
-		// TODO Auto-generated method stub
+		tableDataRepository.addName(name);
 
 	}
 

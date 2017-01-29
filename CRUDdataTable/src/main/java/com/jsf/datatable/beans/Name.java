@@ -6,6 +6,9 @@ public class Name implements Serializable {
 	   private String first;
 	   private String last;
 	   private boolean editable;
+	   public Name(){
+		   
+	   }
 
 	   public Name(String first, String last) {
 	      this.first = first;
