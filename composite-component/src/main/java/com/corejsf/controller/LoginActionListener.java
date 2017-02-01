@@ -8,10 +8,6 @@ import javax.faces.event.AbortProcessingException;
 import javax.faces.event.ActionEvent;
 import javax.faces.event.ActionListener;
 
-/**
- *
- * @author ramesh
- */
 public class LoginActionListener implements ActionListener {
 
 	@Override
